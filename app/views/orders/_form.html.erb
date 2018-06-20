@@ -16,6 +16,16 @@
     <%= form.text_field :name, id: :order_name %>
   </div>
 
+  <div class="field">
+    <%= form.label :customer_id %>
+    <%= form.number_field :customer_id, id: :order_customer_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pizza_id %>
+    <%= form.number_field :pizza_id, id: :order_pizza_id %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

@@ -21,6 +21,11 @@
     <%= form.text_field :email, id: :customer_email %>
   </div>
 
+  <div class="field">
+    <%= form.label :delivery_info_id %>
+    <%= form.text_field :delivery_info_id, id: :customer_delivery_info_id %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

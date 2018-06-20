@@ -69,6 +69,6 @@ class PizzasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pizza_params
-      params.require(:pizza).permit(:name, :price)
+      params.require(:pizza).permit(:name, :price, :crust_id, :recipe_id)
     end
 end

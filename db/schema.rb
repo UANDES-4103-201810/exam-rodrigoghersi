@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180620183326) do
+ActiveRecord::Schema.define(version: 20180620214857) do
 
   create_table "crusts", force: :cascade do |t|
-    t.string "type"
+    t.string "tipo"
     t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -24,12 +24,18 @@ ActiveRecord::Schema.define(version: 20180620183326) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "delivery_info_id"
   end
 
   create_table "delivery_infos", force: :cascade do |t|
     t.string "address1"
     t.string "address2"
     t.integer "phone"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "homes", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -44,20 +50,23 @@ ActiveRecord::Schema.define(version: 20180620183326) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "order_id"
+    t.integer "customer_id"
+    t.integer "pizza_id"
   end
 
   create_table "payment_methods", force: :cascade do |t|
-    t.integer "type"
+    t.integer "tipo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "pizzas", force: :cascade do |t|
-    t.string "name"
     t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "crust_id"
+    t.integer "recipe_id"
+    t.string "name"
   end
 
   create_table "recipes", force: :cascade do |t|
@@ -65,6 +74,7 @@ ActiveRecord::Schema.define(version: 20180620183326) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
+    t.integer "ingredient_id"
   end
 
 end

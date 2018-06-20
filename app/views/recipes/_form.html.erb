@@ -16,6 +16,16 @@
     <%= form.number_field :price, id: :recipe_price %>
   </div>
 
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :recipe_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ingredients_id %>
+    <%= form.text_field :ingredients_id, id: :recipe_ingredients_id %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
