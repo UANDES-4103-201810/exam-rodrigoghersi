@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d0ea02-0c1a-4ff5-8915-e68e9b2f504d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620202656_fix_column_name.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620203158_fix_column.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620210330_remove_name_from_pizzas.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620210500_add_crust_to_pizza.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620210528_add_recipe_to_pizza.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620210758_add_ingredient_to_recipe.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180620210941_add_delivery_info_to_customer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1n/1nT8e3FMIYuVGuYoSmJFy0VdRIUr5kwrZ0LV4sqcG9s.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ca/CaFYEjqHVqRQ6zgpxumF1_-4jpgEKdy4EEuuKMKVdY4.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ES/ES3vZBsGsFMoLg_MB0dFvFmeryzVYp-m18_5qwrsYsg.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IB/IBs6iaJCZJ69oJd1gATwa1lHvu6Xkuw74sQ2hI3HJrE.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LI/LI0jWmuqM-OdOPGfu69NAz9gX42v4vXrQUZI6B23G2g.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LL/LL8u6GDpTF027GQk8Bh3CNkMvj2vkEZE2GOjwjCoDzM.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/NM/NMhqbibhFA1WoJru6T5eRSfYD0LIkNATvhZCX4pxyCE.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nl/NljJEwVJJVz5l-r0yMdbwArLeJTnTq1j9Hh4TqmbrNo.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UW/UWoud-EvDJA3D6R4-qxx6xHnduJ7unml5Tdqk5ZqsYs.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uc/UcWTKrwDm9zZqxl5ORjWc4_FKVG2AA2gUsUQhH9khj4.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XC/XCSagI18Ui5u-i0F_Fnu0Yz3zBbbeqW-606zbs2GOBg.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lC/lCkj8PaFKgwNbe6tZG31_Bw4YTeYB48dPNgpSlFbthc.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q1/q1ovxz_50XLm_iipEh76CG6tANztPHfvzZX4V3p7qmI.cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uH/uHuS3YedEqFsrT--CJkFskD4bAtpxAoa36HQrW3TIzE.cache" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/crusts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/crusts_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/customers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/homes_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/payment_methods_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/payment_methods_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/homes_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/models/home.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/models/pizza.rb" afterPath="$PROJECT_DIR$/app/models/pizza.rb" />
-      <change beforePath="$PROJECT_DIR$/app/models/recipe.rb" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/crusts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/crusts/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/_form.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/_home.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/edit.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/index.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/index.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/new.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/show.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/show.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/payment_methods/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/payment_methods/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/pizzas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EY/EYBftgT2kQ_U3OEmbazXyoJJEyWN2yY3gYCBhl9v3KU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EY/EYBftgT2kQ_U3OEmbazXyoJJEyWN2yY3gYCBhl9v3KU.cache" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zq/Zqc-CIhu539XFXVRD1dB1ibo5Bi0rkogZ-kd6knffHo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zq/Zqc-CIhu539XFXVRD1dB1ibo5Bi0rkogZ-kd6knffHo.cache" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/c0/c0rszIYxi1TBn7tGPURizrOsWbnFgg8xO83nHKgohps.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/c0/c0rszIYxi1TBn7tGPURizrOsWbnFgg8xO83nHKgohps.cache" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,12 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -162,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -367,12 +325,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529516472756</updated>
-      <workItem from="1529516477281" duration="15800000" />
+      <workItem from="1529516477281" duration="16032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15800000" />
+    <option name="totallyTimeSpent" value="16032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -756,6 +714,17 @@
         <state relative-caret-position="108">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
