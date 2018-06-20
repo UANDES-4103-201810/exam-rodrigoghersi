@@ -3,4 +3,6 @@ class Order < ApplicationRecord
   has_one :DeliveryInfo
   has_one :PaymentMethod
   has_many :pizza
+
+  validates :name, presence: true
 end
